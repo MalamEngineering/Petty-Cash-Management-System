@@ -1,0 +1,195 @@
+.navbar-custom .brand {
+	/*padding-top: 15px;
+	padding-bottom: 15px;*/
+	padding-left: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.navbar-custom .navbar-inner {
+	background: #45808c;
+	filter: none !important;
+	box-shadow: 0 2px 15px rgba( 0, 0, 0, 0.25 );
+	-moz-box-shadow: 0 2px 15px rgba( 0, 0, 0, 0.25 );
+	-webkit-box-shadow: 0 2px 15px rgba( 0, 0, 0, 0.25 );
+	/*border-bottom: 1px solid rgba( 0, 0, 0, 0.2 );*/
+}
+.navbar-custom .navbar-inner .nav { float: right; }
+.navbar-custom .navbar-inner .nav > li > a {
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+	text-shadow: none;
+	font-size: 16px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: 600;
+}
+.navbar-custom .navbar-inner .nav > li.dropdown.open a {
+	background: none;
+	color: #fff;
+}
+.navbar-custom .navbar-inner .nav li.dropdown .dropdown-menu li a {
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar-custom .navbar-inner .nav li.dropdown .dropdown-menu {
+	background: #45808c;
+	border: none;
+	box-shadow: none;
+	padding-top: 27px;
+}
+.navbar-custom .navbar-inner .nav li.dropdown .dropdown-menu:after,
+.navbar-custom .navbar-inner .nav li.dropdown .dropdown-menu:before {
+	border: none !important;
+	content: none !important;
+}
+.navbar-custom .navbar-inner .nav li.dropdown .dropdown-menu li a:hover {
+	background: #55908c;
+	color: #fff;
+}
+.navbar-custom .navbar-inner .nav li a:hover {
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+}
+.brand-text {
+	float: right;
+	padding-left: 30px;
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+}
+.brand-text h3, .brand-text h3 small {
+	color: #fff;
+	font-weight: 400;
+}
+.brand-text p {
+	font-weight: 100;
+	font-size: 14px;
+	color: #fff;
+	margin-top: -25px;
+}
+.navbar .navbar-inner .fa {
+	font-size: 21px;
+	position: relative;
+	top: 13px;
+}
+.navbar .navbar-inner .fa.fa-caret-down { padding-left: 25px; }
+
+.sidebar-wrapper {
+	width: 250px;
+	z-index: 1000;
+	position: fixed;
+	top: 100px;
+	left: 250px;
+	height: 100%;
+	margin-left: -250px;
+	overflow-y: auto;
+	background: #ddd;
+	/*transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;*/
+}
+.sidebar-wrapper ul {
+	list-style-type: none;
+	padding-top: 20px;
+}
+.sidebar-wrapper ul li a {
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	width: 70%;
+	color: #555;
+	border-bottom: solid 1px #ccc;
+}
+.sidebar-wrapper ul li.active a {
+	color: #444;
+	font-weight: 800;
+}
+.sidebar-wrapper ul li a .fa {
+	padding-right: 20px;
+	font-size: 16px;
+}
+.alarm {
+	padding: 0 5px;
+	background: #ff2933;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	border: solid 2px #ff2933;
+	color: #fff;
+	position: relative;
+	left: 10px;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 20px;
+	z-index: 1001;
+	background: #45808c;
+	padding: 1em;
+	color: #fff;
+}
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.content {
+	width: 100%;
+	margin-top: 100px;
+	background: url(../img/PCMS/bg.png) 0 0;
+	background-size: 70%;
+}
+.content .content-header {
+	margin-left: 250px;
+	height: 150px;
+	background: #fff;
+	border-bottom: solid 1px #ccc;
+	box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+	-o-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+}
+.content .content-header ul li {
+	padding: 50px;
+	width: 20%;
+	height: 150px;
+	font-weight: 800;
+	border-right: solid 1px #ccc;
+	float: left;
+	text-align: right;
+}
+.content .content-header ul li small { font-weight: 100; }
+.content .jumbotron {
+	clear: both;
+	max-width: 73%;
+	margin-bottom: 200px;
+	background-opacity: 0.7;
+	margin-left: 280px;
+	margin-top: 20px;
+	background: #ddd;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	padding: 30px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.55);
+}
+.content .jumbotron h1 {
+	font-weight: 100;
+	color: #333;
+	text-shadow: 0 2px 1px rgba(0, 0, 0, 0.25);
+}
+.content .jumbotron .btn {
+	background-image: none;
+	border: none;
+	padding: 10px;
+	margin-top: 10px;
+}
